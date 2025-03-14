@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# 🍼 PostpartumPlates  
+
+### **A Guide to Nourishing Foods for Postpartum Recovery**  
+
+PostpartumPlates is a website dedicated to providing information about nourishing foods and traditional postpartum recovery practices, with a focus on the Chinese postpartum program ("Zuo Yuezi").  
+
+![PostpartumPlates Screenshot](https://your-screenshot-url.com)  
+
+---
+
+## **🌟 Features**
+✅ Information on **Eastern postpartum culture**  
+✅ Guides on **nourishing foods** for postpartum recovery  
+✅ Traditional Chinese medicine-based **diet recommendations**  
+✅ Mobile-friendly **responsive design**  
+✅ **Hosted on GitHub Pages** for easy access  
+
+---
+
+## **📂 Project Structure**
+PostpartumPlates/ │-- public/ # Static assets │-- src/ # React components │ │-- components/ # UI components │ │-- pages/ # Page views │-- index.js # Main React entry point │-- App.js # Main app component │-- index.css # Global styles │-- package.json # Project dependencies │-- README.md # Project documentation
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PostpartumPlates/static/css/main.c90b6082.css",
+    "main.css": "/PostpartumPlates/static/css/main.140a8fcc.css",
     "main.js": "/PostpartumPlates/static/js/main.b607a5e6.js",
     "static/js/787.a2f683b9.chunk.js": "/PostpartumPlates/static/js/787.a2f683b9.chunk.js",
     "static/media/Desserts-Essential.jpg": "/PostpartumPlates/static/media/Desserts-Essential.bcc6bc92a487fb944d68.jpg",
@@ -13,12 +13,12 @@
     "static/media/Prenatal.jpg": "/PostpartumPlates/static/media/Prenatal.cf6383ff3e7cb6f8cf3b.jpg",
     "static/media/Logo.jpg": "/PostpartumPlates/static/media/Logo.92c300f1df2d96f3e448.jpg",
     "index.html": "/PostpartumPlates/index.html",
-    "main.c90b6082.css.map": "/PostpartumPlates/static/css/main.c90b6082.css.map",
+    "main.140a8fcc.css.map": "/PostpartumPlates/static/css/main.140a8fcc.css.map",
     "main.b607a5e6.js.map": "/PostpartumPlates/static/js/main.b607a5e6.js.map",
     "787.a2f683b9.chunk.js.map": "/PostpartumPlates/static/js/787.a2f683b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c90b6082.css",
+    "static/css/main.140a8fcc.css",
     "static/js/main.b607a5e6.js"
   ]
 }
