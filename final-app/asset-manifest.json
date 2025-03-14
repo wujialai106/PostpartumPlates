@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PostpartumPlates/static/css/main.c90b6082.css",
+    "main.js": "/PostpartumPlates/static/js/main.b607a5e6.js",
+    "static/js/787.a2f683b9.chunk.js": "/PostpartumPlates/static/js/787.a2f683b9.chunk.js",
+    "static/media/Desserts-Essential.jpg": "/PostpartumPlates/static/media/Desserts-Essential.bcc6bc92a487fb944d68.jpg",
+    "static/media/Meals-Golden.jpg": "/PostpartumPlates/static/media/Meals-Golden.46b490fe25d0f46eff28.jpg",
+    "static/media/Meals-Essential.jpg": "/PostpartumPlates/static/media/Meals-Essential.cce0e0db6c030a811653.jpg",
+    "static/media/Desserts-Golden.jpg": "/PostpartumPlates/static/media/Desserts-Golden.c6701bdb568e60998398.jpg",
+    "static/media/Meals-Premium.jpg": "/PostpartumPlates/static/media/Meals-Premium.9db3456fdcc7595315da.jpg",
+    "static/media/Desserts-Premium.jpg": "/PostpartumPlates/static/media/Desserts-Premium.7762100358e7b02aa43e.jpg",
+    "static/media/Postnatal.jpg": "/PostpartumPlates/static/media/Postnatal.9cb182f49c824e0bd4db.jpg",
+    "static/media/Prenatal.jpg": "/PostpartumPlates/static/media/Prenatal.cf6383ff3e7cb6f8cf3b.jpg",
+    "static/media/Logo.jpg": "/PostpartumPlates/static/media/Logo.92c300f1df2d96f3e448.jpg",
+    "index.html": "/PostpartumPlates/index.html",
+    "main.c90b6082.css.map": "/PostpartumPlates/static/css/main.c90b6082.css.map",
+    "main.b607a5e6.js.map": "/PostpartumPlates/static/js/main.b607a5e6.js.map",
+    "787.a2f683b9.chunk.js.map": "/PostpartumPlates/static/js/787.a2f683b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c90b6082.css",
+    "static/js/main.b607a5e6.js"
+  ]
+}
