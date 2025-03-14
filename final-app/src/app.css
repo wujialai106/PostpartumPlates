@@ -1,0 +1,7 @@
+.app{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  
+  height: 100%;  /*set 3 parts: body and #root in index.css, .app height to 100% to conquer the whole page*/
+  ;
+}

@@ -1,0 +1,15 @@
+.login__modal {
+    background-color: white;
+
+    width: 360px;
+    height: 250px;
+}
+
+.login__close-button{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+    border: 0;
+    cursor: pointer;
+}

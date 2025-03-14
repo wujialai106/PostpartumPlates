@@ -1,0 +1,98 @@
+.global-nav{
+    position: relative;
+
+}
+/* CSS of gg menu is from css.gg */
+.global-nav__gg-menu {
+    margin: 1rem;
+    transform: scale(var(--ggs, 1));
+
+    cursor: pointer;
+  }
+  
+  .global-nav__gg-menu,
+  .global-nav__gg-menu::after,
+  .global-nav__gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background-color: black;
+    /*set the hamburger menu color*/
+  }
+  
+  .global-nav__gg-menu::after,
+  .global-nav__gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+  }
+  
+  .global-nav__gg-menu::after {
+    top: 6px;
+  }
+
+.global-nav__list {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+/*Show at left side as a box instead of block*/
+    position: absolute;   /*Remember the parent cannot be in default static position!*/
+    top:0%;
+    left: 10%;
+
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+    background-color: burlywood;
+}
+
+.global-nav__list--open {
+    display: flex;
+}
+
+.global-nav__link {
+    display: inline-block;
+    /*defaul setting is inline, so we should change to inline block to do the basement alignment*/
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    color: black;
+
+    text-decoration: none;
+}
+
+.global-nav__link:hover {
+    background-color: papayawhip;
+    color: black;
+}
+
+.global-nav__toggle{
+    margin: 0.5rem;
+
+    background-color: inherit;
+}
+
+@media(min-width:44rem) {
+
+    /* .global-nav__toggle {
+        display: none;
+    } */
+
+    .global-nav__gg-menu{
+        display: none;
+    }
+    .global-nav__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        position: relative;
+        left: 0%;
+    }
+
+
+    
+}

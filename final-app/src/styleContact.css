@@ -1,0 +1,37 @@
+.main__text{
+    margin: 1rem;
+    text-align: left;
+}
+
+.target {
+    grid-area: target;
+
+    margin-top: 0rem;
+
+    width: 2rem;
+    height: 2rem;
+
+    border-radius: 50%;
+    background-color: burlywood;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+    .container:hover .target {
+        animation: bounce 2s infinite alternate;
+    }
+
+    @keyframes bounce {
+        from {
+            margin-left: 0%;
+        }
+
+        50% {
+            background-color: papayawhip;
+        }
+
+        to {
+            margin-left: calc(100% - 3rem);
+        }
+    }
+}

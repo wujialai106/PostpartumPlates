@@ -1,0 +1,16 @@
+.main__title{
+    padding: 1rem;
+    margin: 0;
+}
+
+.main__text{
+    padding-left: 1rem;
+    padding-bottom: 0rem;
+}
+
+.subscribe__label{
+    padding-left:1rem;
+}
+.subscribe__button{
+    margin: 1rem;
+}

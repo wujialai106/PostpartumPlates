@@ -1,0 +1,30 @@
+.carousel {
+  position: relative;
+  left: 15%;
+
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  max-height:400px;
+
+}
+
+.carousel__img {
+  display: block;
+
+  width: 80%;
+  height: auto;
+  min-height: 250px;
+  max-height: 400px;
+
+}
+
+
+.carousel__buttons {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}

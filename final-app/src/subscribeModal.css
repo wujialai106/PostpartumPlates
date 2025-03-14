@@ -1,0 +1,87 @@
+.modal {
+    background-color: white;
+
+    width: 360px;
+    height: 400px;
+}
+
+.modal::backdrop {
+    background-color: rgb(0 0 0 / 0.7);
+    /*the whole page would be dark*/
+}
+
+.modal__title {
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+.login{
+    margin-top: 1rem;
+}
+
+.login__close-button{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+    border: 0;
+    cursor: pointer;
+}
+.subscribe__label {
+    display: flex;
+    flex-direction: column;
+    /*2 columns*/
+
+    padding-left: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.subscribe__label-div {
+    float: left;
+    /*make 2 spans align in one line*/
+}
+
+.subscribe__eg-label {
+    font-style: italic;
+}
+
+.subscribe__required-label {
+    font-style: italic;
+}
+
+.subscribe-email__blank-error{
+    display: block;
+    color:red;
+}
+/* .subscribe-email__error--open{
+    display: flex;
+} */
+.subscribe-email__invalid-error{
+    display: block;
+    color:red;
+}
+.subscribe-confirm__error{
+    display: block;
+    color:red;
+}
+
+.subscribe__buttons {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 1rem;
+}
+
+.submission {
+    text-align: center;
+    background-color: white;
+
+}
+
+.submission__close-button {
+    font-size: 1.2rem;
+}

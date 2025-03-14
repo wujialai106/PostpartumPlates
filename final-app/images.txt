@@ -1,0 +1,12 @@
+picture checklist:
+1.Desserts-Essential  Owner:Jialai Wu
+2.Desserts-Golden     Owner:Jialai Wu
+3.Desserts-Premium    Owner:Jialai Wu
+4.Logo                Owner:Jialai Wu
+5.Meals-Essential     Owner:Jialai Wu
+6.Meals-Golden        Owner:Jialai Wu
+7.Meals-Premium       Owner:Jialai Wu
+8.Postnatal           Owner:Jialai Wu
+9.Prenatal            Owner:Jialai Wu
+
+Owner:Jialai Wu

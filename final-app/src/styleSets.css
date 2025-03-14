@@ -1,0 +1,175 @@
+.cards {
+    display: grid;
+    /*12 GRID*/
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+
+    margin: 1rem;
+}
+
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    align-items: center;
+
+
+}
+
+.card__pic {
+    width: 200px;
+    height: 150px;
+
+    margin-bottom: 1rem;
+
+    border-radius: 10%;
+
+}
+
+.card__text {
+    margin-top: 0;
+}
+
+.card__link {
+    margin-top: auto;
+    /*link alignment on the bottom*/
+    padding: 0.5rem;
+
+    border: 2px solid black;
+    border-radius: 10%;
+
+    font: inherit;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    color: black;
+    background-color: papayawhip;
+
+}
+
+.card__link:hover {
+    background-color: burlywood;
+}
+
+.order__modal {
+    position: relative;
+    background-color: papayawhip;
+
+    width: 600px;
+    height: 450px;
+}
+
+.order__modal::backdrop {
+    background-color: rgb(0 0 0 / 0.7);
+    /*the whole page would be dark*/
+}
+
+.order__close-button{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+    border: 0;
+    cursor: pointer;
+}
+.order__submit-button{
+    align-items: center;
+}
+
+.order__title{
+    margin:0.5rem;
+    text-align: center;
+}
+
+.order__text{
+    margin: 0;
+    font-style: oblique;
+    text-align: center;
+}
+
+.order__label {
+    display: flex;
+    flex-direction: column;
+    /*2 columns*/
+
+    padding-left: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.order__label-div {
+    float: left;
+    /*make 2 spans align in one line*/
+}
+
+.order__eg-label {
+    font-style: italic;
+}
+.order-name__blank-error{
+    display: block;
+    color: red;
+}
+
+.order-email__blank-error{
+    display: block;
+    color: red;
+}
+
+.order-email__invalid-error{
+    display: block;
+    color: red;
+}
+
+.order-shipping__blank-error{
+    display: block;
+    color: red;
+}
+
+.order-billing__blank-error{
+    display: block;
+    color: red;
+}
+
+.billing-readonly{
+    background-color: gainsboro;
+}
+
+.order__buttons {
+    text-align: center;
+}
+
+@media(min-width: 44rem) {
+
+    .main__title {
+        font-size: 2rem;
+    }
+
+    .card {
+        grid-column: span 4;
+    }
+
+    .card__title {
+        text-align: center;
+    }
+
+    .card__container {
+        /*Wrap img in a div to avoid problem of alignment and picture leak.*/
+        text-align: center;
+    }
+
+    .card__pic {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+
+}
