@@ -7,7 +7,6 @@ PostpartumPlates is a website dedicated to providing information about nourishin
 ![PostpartumPlates Screenshot](https://your-screenshot-url.com)  
 
 ---
-
 ## **🌟 Features**
 ✅ Information on **Eastern postpartum culture**  
 ✅ Guides on **nourishing foods** for postpartum recovery  
